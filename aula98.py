@@ -45,4 +45,6 @@ for i in range(0,len(cpf_cru)-2):
 
 resultado = (soma*10)%11
 
+resultado = 0 if resultado > 9 else resultado
+
 print(resultado)
