@@ -36,15 +36,15 @@ if ('.' in cpf) and ('-' in cpf):
 else:
     cpf_cru = cpf
 
-multiplicador = 10
-soma = 0
+multiplicador_1 = 10
+soma_1 = 0
 
 for i in range(0,len(cpf_cru)-2):
-    soma += int(cpf_cru[i])*multiplicador
-    multiplicador -= 1
+    soma_1 += int(cpf_cru[i])*multiplicador_1
+    multiplicador_1 -= 1
 
-resultado = (soma*10)%11
+digito_1 = (soma_1*10)%11
 
-resultado = 0 if resultado > 9 else resultado
+digito_1 = 0 if digito_1 > 9 else digito_1
 
-print(resultado)
+print(digito_1)
