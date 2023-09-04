@@ -1,11 +1,18 @@
-#746.824.890-70
+import sys
 
 cpf_usuario = input('Digite um cpf: ')
 
 if ('.' in cpf_usuario) and ('-' in cpf_usuario):
-    cpf_cru = f'{cpf_usuario[:3]}{cpf_usuario[4:7]}{cpf_usuario[8:11]}{cpf_usuario[12:]}'
+    cpf_cru = cpf_usuario.replace('.','').replace('-','')
 else:
     cpf_cru = cpf_usuario
+
+entrarda_rep = cpf_cru == cpf_cru[0] * len(cpf_cru)
+
+if entrarda_rep:
+    print('CPF invalido')
+    sys.exit()
+
 
 cpf_nove_primeiros_digitos = cpf_cru[:9]
 
