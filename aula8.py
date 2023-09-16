@@ -1,4 +1,4 @@
-nome = 'pedro'
+nome = 'pedro '
 sobrenome = 'neto'
 idade = 19
 ano_nascimento = 2023 - 19
