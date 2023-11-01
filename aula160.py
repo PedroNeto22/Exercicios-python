@@ -1,4 +1,4 @@
-# copy, sorted, produtos.sort
+# (copy, sorted, produtos.sort)
 # Exercícios
 # Aumente os preços dos produtos a seguir em 10%
 # Gere novos_produtos por deep copy (cópia profunda)
