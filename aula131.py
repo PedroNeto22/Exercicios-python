@@ -28,6 +28,7 @@ lista_de_listas_de_inteiros = [
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
 
+
 def encontra_num(lista):
     meu_conjunto = set()
     sem_duplicata = -1
@@ -39,6 +40,6 @@ def encontra_num(lista):
 
     return sem_duplicata
 
+
 for i in lista_de_listas_de_inteiros:
     print(encontra_num(i))
-

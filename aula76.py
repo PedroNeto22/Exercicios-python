@@ -2,7 +2,7 @@ import os
 
 palavra_oculta = 'python'
 letras_acertadas = ''
-tentativas = 0 
+tentativas = 0
 while True:
     tentativas += 1
     letra = input('Digite uma letra: ')
@@ -12,7 +12,7 @@ while True:
         continue
     if letra in palavra_oculta:
         letras_acertadas += letra
-    
+
     palavra_formada = ''
 
     for letra_secreta in palavra_oculta:
@@ -28,9 +28,4 @@ while True:
         print(f'Numero de tentativas: {tentativas}')
         print(f'A palavra era "{palavra_oculta}"')
         letras_acertadas = ''
-        tentativas = 0 
-        
-        
-
-
-        
+        tentativas = 0

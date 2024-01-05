@@ -32,4 +32,4 @@ while option:
             print('Isso não é um operador valido')
     elif calc == 'Não' or calc == 'n' or calc == 'nao':
         print('Você escolheu sair')
-        option = False     
+        option = False

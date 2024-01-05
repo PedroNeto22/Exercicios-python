@@ -11,5 +11,5 @@ if name and age:
         print('Seu nome não contem espaços')
     print(f'A primeira letra do seu nome é {name[0]}')
     print(f'A ultima letra do seu nome é {name[len(name)-1]}')
-else: 
+else:
     print('Desculpe, você deixou compos vazios')

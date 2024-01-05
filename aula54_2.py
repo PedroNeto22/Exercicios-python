@@ -2,7 +2,7 @@ hour = input('Diga uma hora ')
 hour_int = None
 
 try:
-    hour_int = int(hour) 
+    hour_int = int(hour)
     if hour_int <= 11:
         print('Bom Dia!')
     elif hour_int <= 17:
@@ -11,6 +11,3 @@ try:
         print('Boa Noite')
 except:
     print('Digite apenas números inteiros')
-
-
-

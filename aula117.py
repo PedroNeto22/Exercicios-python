@@ -1,7 +1,8 @@
 def create_multiply(num_multi):
-  def multiplied(num):
-    return num_multi * num
-  return multiplied
+    def multiplied(num):
+        return num_multi * num
+    return multiplied
+
 
 quadruplicar = create_multiply(4)
 triplicar = create_multiply(3)

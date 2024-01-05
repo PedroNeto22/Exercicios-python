@@ -6,18 +6,18 @@
 
 import json
 
+
 class pessoa:
 
-  def __init__(self,nome,sobrenome,idade):
-    self.nome = nome
-    self.sobrenome = sobrenome
-    self.idade = idade
+    def __init__(self, nome, sobrenome, idade):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.idade = idade
 
-with open('aula206.json','r') as arquivo:
-  dados = json.load(arquivo)
+
+with open('aula206.json', 'r') as arquivo:
+    dados = json.load(arquivo)
 
 pessoa1 = pessoa(**dados)
 
 print(pessoa1.nome)
-
-
