@@ -30,3 +30,9 @@ class Cliente(Pessoa):
     def __init__(self, nome: str, idade: int) -> None:
         super().__init__(nome, idade)
         self.conta: aula256_contas.Contas | None = None
+
+
+if __name__ == '__main__':
+    cl = Cliente('Pedro', 15)
+    cl.conta = aula256_contas.ContaPoupança(111, 111, 1000)
+    cl.conta.consulta()
